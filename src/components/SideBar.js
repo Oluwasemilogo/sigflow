@@ -12,11 +12,12 @@ import book from '../Assets/book.svg'
 
 export const SideBar = () => {
   return (
-    <div className="flex flex-col gap-6  overflow-hidden  bg-sidebar-background   pt-4 px-10">
+    <div className="flex flex-col gap-6  overflow-hidden  bg-sidebar-background pt-4 px-10">
       <h1 className="text-[#32D583] text-2xl font-semibold">SigFlow</h1>
-      <div className="flex  gap-28 bg-chev-background rounded-md py-1 px-3 cursor-pointer">
+      <div className="flex  w-[12rem] gap-24 bg-chev-background rounded-md py-1 px-3 cursor-pointer">
+        
         <p className="text-[#101828] font-normal text-lg">Sigflow</p>
-        <img src={chevron} alt="dropdown" />
+       <img src={chevron} alt="dropdown" />
       </div>
       <ul className="flex flex-col gap-1">
         <li className="flex gap-[0.4rem] w-full px-3 items-center  py-1 cursor-pointer">
@@ -43,7 +44,7 @@ export const SideBar = () => {
             Destination
           </p>
         </li>
-        <li className="flex gap-[0.8rem] w-full px-3 items-center rounded-md cursor-pointer bg-[#ECFDF3] py-3 my-2 mt-6 ">
+        <li className="flex gap-[0.8rem] w-[12rem] px-3 items-center rounded-md cursor-pointer bg-[#ECFDF3] py-3 my-2 mt-6 ">
           <img src={transform} alt="dropdown" />
           <p className="text-center text-lg text-[#32D583] font-normal">
             Transformation

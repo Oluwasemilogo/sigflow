@@ -3,7 +3,7 @@ import { LoginForm } from '../components/LoginForm';
 
 export const Login = () => {
   return (
-    <div>
+    <div className="font-manrope">
       <nav className="p-8">
         <h1 className="text-[#32D583] text-3xl font-bold">SigFlow</h1>
       </nav>

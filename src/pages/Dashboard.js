@@ -4,9 +4,9 @@ import { DashboardMain } from '../components/DashboardMain';
 
 export const Dashboard = () => {
   return (
-    <div className="flex overflow-y-hidden h-screen">
-          <SideBar />
-            <DashboardMain />
+    <div className="flex overflow-y-hidden h-screen font-manrope">
+      <SideBar />
+      <DashboardMain />
     </div>
   );
 }
